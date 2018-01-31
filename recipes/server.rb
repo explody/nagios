@@ -159,6 +159,7 @@ nagios_conf 'templates'
 nagios_conf 'services'
 nagios_conf 'servicegroups'
 nagios_conf 'servicedependencies'
+nagios_conf 'hostdependencies'
 
 zap_directory node['nagios']['config_dir'] do
   pattern '*.cfg'
